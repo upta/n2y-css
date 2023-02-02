@@ -1,0 +1,53 @@
+.basic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.basic-grid .child-1 {
+  background-color: cyan;
+}
+
+.basic-grid .child-2 {
+  background-color: magenta;
+}
+
+.basic-grid .child-3 {
+  background-color: yellow;
+}
+
+.header-grid {
+  display: flex;
+}
+
+.header-grid .icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: aquamarine;
+}
+
+.header-grid .title {
+  flex: auto;
+  border: solid 1px lightgrey;
+}
+
+.now-in-2d {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.now-in-2d .child-1 {
+  background-color: cyan;
+}
+
+.now-in-2d .child-2 {
+  background-color: magenta;
+}
+
+.now-in-2d .child-3 {
+  background-color: yellow;
+}
+
+.now-in-2d .child-4 {
+  background-color: grey;
+}

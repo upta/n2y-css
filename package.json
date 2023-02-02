@@ -1,0 +1,24 @@
+{
+  "name": "n2y-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --watch examples --recursive --output examples --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upta/n2y-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upta/n2y-css/issues"
+  },
+  "homepage": "https://github.com/upta/n2y-css#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

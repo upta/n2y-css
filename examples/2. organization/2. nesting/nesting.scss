@@ -1,0 +1,36 @@
+.first {
+  .second-level {
+    color: green;
+  }
+}
+
+.second {
+  &.with-this-class-also {
+    color: blueviolet;
+  }
+}
+
+.third {
+  color: orange;
+
+  &.override-color {
+    color: magenta;
+  }
+}
+
+.fourth {
+  div {
+    border: solid 1px teal;
+    padding: 5px;
+  }
+}
+
+.fifth {
+  > div {
+    border: solid 1px teal;
+    padding: 5px;
+  }
+}
+
+// mixins
+// mixins with parameters

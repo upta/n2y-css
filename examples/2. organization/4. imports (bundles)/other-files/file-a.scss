@@ -1,0 +1,8 @@
+@import "../shared/mixins.scss";
+@import "../shared/variables.scss";
+
+.class-a {
+  @include mixalot();
+  
+  background-color: $secondary-color;
+}

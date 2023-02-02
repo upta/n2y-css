@@ -1,0 +1,59 @@
+.basic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  .child-1 {
+    background-color: cyan;
+  }
+
+  .child-2 {
+    background-color: magenta;
+  }
+
+  .child-3 {
+    background-color: yellow;
+  }
+}
+
+.header-grid {
+  // visibility: hidden;
+
+  display: flex;
+  // gap: 10px;
+
+  .icon {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+  }
+
+  .title {
+    flex: auto;
+    border: solid 1px lightgrey;
+  }
+}
+
+.now-in-2d {
+  // visibility: hidden;
+
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  // gap: 10px;
+
+  .child-1 {
+    background-color: cyan;
+  }
+
+  .child-2 {
+    background-color: magenta;
+  }
+
+  .child-3 {
+    background-color: yellow;
+  }
+
+  .child-4 {
+    background-color: grey;
+  }
+}

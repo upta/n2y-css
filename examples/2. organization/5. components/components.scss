@@ -1,0 +1,12 @@
+// For web frameworks that insert a custom tag name at the root of the component
+component-name {
+  color: teal;
+}
+
+// For web frameworks that don't insert a custom tag; add this class name to the root
+.component-name {
+  color: teal;
+}
+
+// Some more modern frameworks you don't actually have to worry about this
+// because they handle scoping component css themselves

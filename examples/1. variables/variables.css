@@ -1,0 +1,29 @@
+body {
+  background-color: #6789ab;
+}
+
+span {
+  color: #19232d;
+}
+
+.sass-box {
+  background-color: #19232d;
+  height: 50px;
+  width: 50px;
+}
+
+.big-sass-box {
+  background-color: #32465a;
+  height: 100px;
+  width: 100px;
+}
+
+:root {
+  --box-size: 50px;
+}
+
+.css-box {
+  background-color: #123456;
+  height: var(--box-size);
+  width: var(--box-size);
+}

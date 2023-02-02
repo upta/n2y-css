@@ -1,0 +1,34 @@
+$primary-color: #6789ab;
+$secondary-color: darken(#6789ab, 40%);
+$box-size: 50px;
+
+body {
+  background-color: $primary-color;
+}
+
+span {
+  color: $secondary-color;
+}
+
+.sass-box {
+  background-color: $secondary-color;
+  height: $box-size;
+  width: $box-size;
+}
+
+ // SASS can handle a lot of operations between different value types
+.big-sass-box {
+  background-color: $secondary-color * 2;
+  height: $box-size * 2;
+  width: $box-size * 2;
+}
+
+:root {
+  --box-size: 50px;
+}
+
+.css-box {
+  background-color: #123456;
+  height: var(--box-size);
+  width: var(--box-size);
+}

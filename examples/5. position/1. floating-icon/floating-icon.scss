@@ -1,0 +1,20 @@
+// the key here is that position: absolute elements will have a position relative to the nearest parent that has position set to something besides the default "static"
+// setting position to relative keeps the element in the normal page flow, but allows its children to position: absolute relative to it
+.card {
+  position: relative;
+
+  border: solid 1px grey;
+  padding: 5px;
+  width: 200px;
+  margin: 20px;
+
+  .icon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+    background-color: maroon;
+    color: white;
+    padding: 5px;
+  }
+}

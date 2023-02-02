@@ -1,0 +1,7 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: burlywood;
+  color: brown;
+  margin: 0 0 10px 0;
+}

@@ -1,0 +1,27 @@
+// lots of ways to do it, but grid/flex is best
+.parent-element {
+  display: grid;
+  place-items: center;
+}
+
+.outer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 150px;
+  height: 150px;
+  background-color: greenyellow;
+}
+
+.inner-box {
+  width: 50px;
+  height: 50px;
+  background-color: darkgoldenrod;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}

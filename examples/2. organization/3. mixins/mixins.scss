@@ -1,0 +1,34 @@
+@mixin text-color()
+{
+  color: blueviolet;
+}
+
+@mixin param-text-color($color) {
+  color: $color;
+}
+
+@mixin optional-param-text-color($color: green) {
+  color: $color;
+}
+
+.first {
+  @include text-color()
+}
+
+.second {
+  @include text-color()
+}
+
+.third {
+  @include param-text-color(orangered);
+}
+
+.fourth {
+  @include optional-param-text-color();
+}
+
+.fifth {
+  @include optional-param-text-color(red);
+}
+
+// mixins with parameters

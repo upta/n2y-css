@@ -1,0 +1,38 @@
+.basic-flex {
+  display: flex;
+
+  .child {
+    flex: 1;
+  }
+
+  .child-1 {
+    background-color: cyan;
+  }
+
+  .child-2 {
+    background-color: magenta;
+  }
+
+  .child-3 {
+    background-color: yellow;
+  }
+}
+
+.header-flex {
+  visibility: hidden;
+
+  display: flex;
+  // gap: 10px;
+
+  .icon {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+  }
+
+  .title {
+    flex: auto;
+    border: solid 1px lightgrey;
+  }
+}

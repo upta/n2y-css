@@ -1,0 +1,33 @@
+.layout-grid {
+  display: grid;
+  height: 100%;
+  grid: "header header" auto "left-menu body" 1fr "footer footer" auto;
+}
+
+.layout-grid header {
+  grid-area: header;
+  background-color: lightblue;
+}
+
+.layout-grid footer {
+  grid-area: footer;
+  background-color: lightseagreen;
+}
+
+.layout-grid aside {
+  grid-area: left-menu;
+  background-color: lightcoral;
+}
+
+.layout-grid .body {
+  grid-area: body;
+  background-color: lightgray;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}

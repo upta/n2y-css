@@ -1,0 +1,16 @@
+// applying class names vs structural elements
+.first .child {
+  color: green;
+}
+
+.second div {
+  color: orange;
+}
+
+.third span {
+    color: blueviolet;
+}
+
+.third span:first-child {
+  color: magenta;
+}

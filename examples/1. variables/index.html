@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./variables.css" />
+  </head>
+  <body>
+    <span>A span with some text</span>
+    <br /><br />
+    <div class="sass-box"></div>
+    <br />
+    <div class="big-sass-box"></div>
+    <br />
+    <div class="css-box"></div>
+    <select>
+      <option value="50px">50px</option>
+      <option value="100px">100px</option>
+      <option value="150px">150px</option>
+    </select>
+
+    <script>
+      const box = document.querySelectorAll(".css-box")[0];
+      const select = document.querySelectorAll("select")[0];
+
+      select.addEventListener("change", (ev) => {
+        const selectedSize = ev.target.selectedOptions[0].value;
+
+        box.style.setProperty("--box-size", selectedSize);
+      });
+    </script>
+  </body>
+</html>
