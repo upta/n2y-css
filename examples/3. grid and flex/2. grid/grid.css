@@ -16,24 +16,25 @@
 }
 
 .header-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
 }
 
 .header-grid .icon {
-  flex: none;
   width: 20px;
   height: 20px;
   background-color: aquamarine;
 }
 
 .header-grid .title {
-  flex: auto;
   border: solid 1px lightgrey;
 }
 
 .now-in-2d {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 10px 20px;
 }
 
 .now-in-2d .child-1 {

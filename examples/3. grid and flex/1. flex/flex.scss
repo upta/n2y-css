@@ -19,7 +19,7 @@
 }
 
 .header-flex {
-  visibility: hidden;
+  // visibility: hidden;
 
   display: flex;
   // gap: 10px;
@@ -34,5 +34,12 @@
   .title {
     flex: auto;
     border: solid 1px lightgrey;
+  }
+
+  .end {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
   }
 }

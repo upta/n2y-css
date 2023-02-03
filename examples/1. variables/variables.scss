@@ -1,5 +1,5 @@
 $primary-color: #6789ab;
-$secondary-color: darken(#6789ab, 40%);
+$secondary-color: darken($primary-color, 40%);
 $box-size: 50px;
 
 body {
@@ -16,7 +16,7 @@ span {
   width: $box-size;
 }
 
- // SASS can handle a lot of operations between different value types
+// SASS can handle a lot of operations between different value types
 .big-sass-box {
   background-color: $secondary-color * 2;
   height: $box-size * 2;

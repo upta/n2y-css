@@ -19,7 +19,6 @@
 }
 
 .header-flex {
-  visibility: hidden;
   display: flex;
 }
 
@@ -33,4 +32,11 @@
 .header-flex .title {
   flex: auto;
   border: solid 1px lightgrey;
+}
+
+.header-flex .end {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
 }

@@ -8,9 +8,13 @@
 }
 
 .third span {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 .third span:first-child {
   color: magenta;
+}
+
+.this.and.this {
+  color: orangered;
 }

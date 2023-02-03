@@ -13,3 +13,7 @@
 .third span:first-child {
   color: magenta;
 }
+
+.this.and.this {
+  color: orangered;
+}
