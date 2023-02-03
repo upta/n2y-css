@@ -1,1 +1,1 @@
-# n2y-css
+More info on using grid: https://learncssgrid.com/
